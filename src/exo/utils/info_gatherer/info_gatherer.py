@@ -9,8 +9,8 @@ from typing import Self
 import anyio
 from anyio import create_task_group, open_process
 from anyio.abc import TaskGroup
-from anyio.streams.text import TextReceiveStream
 from anyio.streams.buffered import BufferedByteReceiveStream
+from anyio.streams.text import TextReceiveStream
 from loguru import logger
 
 from exo.shared.constants import EXO_CONFIG_FILE
